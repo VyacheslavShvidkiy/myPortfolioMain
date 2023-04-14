@@ -1,17 +1,4 @@
-body {
-    background: url('../images/foto-bg.jpg');
-    position: relative;
-}
-.body_overlay {
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.9);
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0%;
-}
+
 .my-photo {
   border-radius: 50%;
   background-image: url("../images/foto-bg.jpg");
