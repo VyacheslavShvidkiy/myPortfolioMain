@@ -1,7 +1,7 @@
 
 .my-photo {
   border-radius: 50%;
-  background-image: url("../images/foto-bg.jpg");
+  background-image: url("../images/ukrainian-flag.png");
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-box-shadow: 0px 0px 60px 6px rgba(231, 166, 26, 1);
@@ -27,4 +27,30 @@
 }
 .skill-row {
   margin-top: 25px;
+}
+.right-about {
+    background-image: url('../images/ukrainian-flag.png');
+    background-position: center;
+    background-size: cover;
+}
+.section-title {
+    position: relative;
+}
+.section-title::before {
+    content: '';
+    background: url('../images/ukrainian-strip.png');
+    background-size: cover;
+    position: absolute;
+    top: -83px;
+    left: -33px;
+    width: 278px;
+    height: 222px;
+    z-index: -1;
+    transform: rotate(-20deg);
+}
+.blue-text {
+    color: #2869EA !important;
+}
+.yellow-text {
+    color: yellow !important;
 }
